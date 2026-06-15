@@ -68,7 +68,8 @@ Hearthmon remembers the hard nights — and stays.
 
 ---
 
-![Product Map](docs/product-map.png)
+![Product Map](product-map.png)
+
 
 
 ## 🧭 Why Hearthmon?
