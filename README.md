@@ -153,6 +153,18 @@ This system succeeds because it models **patience**. It dozes off when ignored. 
    ↓
 [Transparent Always-On-Top Tauri Window]
 ```
+## 🛠️ Stack
+
+| Layer | Technology | Engineering Details |
+|---|---|---|
+| **Shell & Backend** | **Tauri 2 (Rust)** | ~10MB native footprint. Frameless, transparent, always-on-top window management. |
+| **UI Framework** | **Svelte 5 & SvelteKit** | Fully typed (TypeScript) UI layer, powered by Vite 6. |
+| **Graphics Engine** | **Pixi.js v8** | Drives the "Alive" renderer (dynamic lighting, particle physics, weather). |
+| **Local Memory** | **SQLite** | via `tauri-plugin-sql`. 100% local, never leaves the `%APPDATA%` directory. |
+| **Awareness System** | **Win32 APIs** | Rust `windows-sys` for foreground process sensing (zero keystrokes logged). |
+| **Audio Processing** | **cpal (Rust)** | WASAPI loopback capture for zero-latency, ephemeral music vibe analysis. |
+| **Security Layer** | **Offline Crypto** | `chacha20poly1305`, `hkdf`, `hmac` & `obfstr` for secure builder-pass state management. |
+| **Data Source** | **PokéAPI** | Real base stats, 18×18 type charts, and actual learnsets for the battle engine. |
 
 ---
 
