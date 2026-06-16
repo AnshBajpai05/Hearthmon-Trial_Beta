@@ -33,6 +33,43 @@ No guilt. No streaks. No hustle. Just presence.
 
 ---
 
+## ⚠️ Early Builder Preview (Active Testing)
+
+Hearthmon is currently in an **active testing phase**.
+
+You're seeing it while it's still evolving — features are being polished, interactions refined, and entire emotional systems are still growing.
+
+The goal right now isn't perfection.
+
+It's learning:
+
+> *What actually makes a quiet digital companion feel comforting, alive, and worth keeping around?*
+
+### Expect
+
+* occasional bugs
+* rough edges
+* unfinished polish
+* fast iteration
+
+### What helps most
+
+If something feels:
+
+* ✨ magical
+* 🐞 broken
+* 😕 awkward
+* 💛 unexpectedly comforting
+
+please open an Issue or start a discussion.
+
+Every tiny moment matters right now.
+
+**The final Hearthmon experience is still being shaped.**
+-----
+
+
+
 ## ✨ What Hearthmon Feels Like
 
 It's 2:14 AM.
