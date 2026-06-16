@@ -4,6 +4,10 @@
 
 > *A warm Pokémon-inspired companion that quietly grows beside you while you build.*
 
+------
+press V to switch: Classic (cozy CSS) ↔ Alive (premium Pixi — a living body, type habitats, ambient effects). Same brain, different skin.
+------
+
 </div>
 
 ---
