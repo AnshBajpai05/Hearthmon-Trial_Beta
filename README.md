@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌟 Hearthmon — You Don't Build Alone
+# 🌟 Hearthmon — You Don't Build Alone  {## ⚠️ Early Builder Preview (Active Testing)}
 
 > *A warm Pokémon-inspired companion that quietly grows beside you while you build.*
 
