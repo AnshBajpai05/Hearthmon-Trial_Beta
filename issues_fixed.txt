@@ -1,0 +1,21 @@
+# Issues Fixed from Previous Runs
+
+Coming into:
+
+- Unbounded `read_to_end` OOM - Fixed 2026-06-16
+- Permanent future-clock lockout - Fixed 2026-06-17
+- `fetch` defeats `--force-with-lease` - Fixed 2026-06-16
+- Admin Drop + no Unix impl - Fixed 2026-06-17
+- Worktree `.git` file + monorepo polling - Fixed 2026-06-17
+- Audio device-invalidation + slow AGC - Fixed 2026-06-17
+- Missing database indexes - Fixed 2026-06-17
+- Card amend self-triggers commit watcher - Fixed 2026-06-16
+- Watchers never pause when hidden - Fixed 2026-06-16
+- 260-wchar path truncation - Fixed 2026-06-17
+- Newest-file-any-type log read - Fixed 2026-06-17
+- Local vs UTC day boundary - Fixed 2026-06-17
+- `ORDER BY RANDOM()` full scan - Fixed 2026-06-17
+- No WAL / `busy_timeout` - Fixed 2026-06-16
+- Non-atomic `bumpCounter` - Fixed 2026-06-17
+- Vestigial `gpu_stat` - Resolved 2026-06-17
+- Reminders: same-minute collision drops all-but-one - Fixed 2026-06-17
