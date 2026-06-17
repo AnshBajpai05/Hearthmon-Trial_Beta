@@ -1,12 +1,20 @@
 <div align="center">
 
-# 🌟 Hearthmon — You Don't Build Alone  {## ⚠️ Early Builder Preview (Active Testing)}
+# 🌟 Hearthmon — You Don't Build Alone
 
-> *A warm Pokémon-inspired companion that quietly grows beside you while you build.*
+> *A Pokémon-inspired desktop companion that quietly grows beside you while you build. It notices **how** you build, remembers the seasons you lived through, and never once asks for your attention.*
 
-------
-press V to switch: Classic (cozy CSS) ↔ Alive (premium Pixi — a living body, type habitats, ambient effects). Same brain, different skin.
-------
+<p align="center">
+  <img src="./assets/hearthmon-status.svg?v=1781702542" width="750"/>
+</p>
+
+**Current Companion:** —<br/>
+**Mood:** quietly present<br/>
+**Status:** *"keeping watch."*<br/>
+
+*↑ This card is **alive** — Hearthmon writes it back into your repo as you build, so your profile breathes.*
+
+`100% local` · `no account` · `no cloud` · `~10 MB native` · `Tauri 2 + Svelte 5 + Rust + Pixi.js v8`
 
 </div>
 
@@ -14,297 +22,183 @@ press V to switch: Classic (cozy CSS) ↔ Alive (premium Pixi — a living body,
 
 ## ✦ What is Hearthmon?
 
-**The companion that quietly stays while you build hard things.**
+A Pokémon that lives in the corner of your screen while you code — but it's not a pet that begs for attention, and it's not another productivity tracker. The unusual part:
 
-A Pokémon that lives in the corner of your screen while you code — but it's not a pet that begs for attention, and it's definitely not another productivity tracker. The unusual part:
+> **It notices *how* you build, not just *that* you did.**
 
-> **it notices *how* you build, not just *that* you did.**
+It feels the texture of a session. It **goes quiet when you drop into flow**, **sits a little closer** when you've been wrestling the same bug for an hour, and celebrates the commit that *finally cracked it* — not the typo-fix. It remembers the **seasons** you lived through — the late nights, the projects you stuck with — and brings them back, gently, weeks later. It keeps watch while your **model trains**. It even quietly updates a **living card on your GitHub profile** as you go.
 
-It feels the texture of a session. It goes quiet when you drop into flow, sits a little closer when you've been wrestling the same bug for an hour, and celebrates the commit that *finally cracked it* — not the typo-fix. It remembers the seasons you lived through — the late nights, the projects you stuck with — and brings them back, gently, weeks later. It even keeps watch while your model trains.
-
-No guilt. No streaks. No hustle. Just presence.
-
-### What it does
-- 🌱 **Quiet presence** — lives beside you; never nags, never shames, never breaks focus
-- 🧠 **Notices the process** — flow · friction · breakthrough, inferred from privacy-safe
-  signals (never your keystrokes, screen, or code)
-- ⛏️ **Stays alongside the work** — git commits, long-running projects, even ML training runs
-- 📖 **Remembers what mattered** — milestones, hard seasons, the day you shipped something real
-- 🌧️ **Lives in time** — shifts with your mood, the weather, and the hour; dreams while it sleeps
-- 🎵 **Vibes with your music** — subtly reacts to your system audio with gentle bobs and beat pulses (opt-in, no audio recorded)
-- 🎙️ **Has a soul of its own** — character-inspired voice, tiny battles, and a personality
-  that quietly *drifts* from how you treat it — so your companion becomes unlike anyone else's
+**No guilt. No streaks. No hustle. No cloud. Just presence.**
 
 ---
 
-## ⚠️ Early Builder Preview (Active Testing)
+## ✨ What it feels like
 
-Hearthmon is currently in an **active testing phase**.
+It's 2:14 AM. You've been fighting the same bug for an hour. Your companion quietly shifts a little closer.
 
-You're seeing it while it's still evolving — features are being polished, interactions refined, and entire emotional systems are still growing.
+No notification. No streak warning. Just:
 
-The goal right now isn't perfection.
+> *"Still here."*
 
-It's learning:
+Weeks later, after you finally ship:
 
-> *What actually makes a quiet digital companion feel comforting, alive, and worth keeping around?*
+> *"You really fought for this one."*
 
-### Expect
+And on a random Tuesday, out of nowhere:
 
-* occasional bugs
-* rough edges
-* unfinished polish
-* fast iteration
-
-### What helps most
-
-If something feels:
-
-* ✨ magical
-* 🐞 broken
-* 😕 awkward
-* 💛 unexpectedly comforting
-
-please open an Issue or start a discussion.
-
-Every tiny moment matters right now.
-
-**The final Hearthmon experience is still being shaped.**
------
-
-
-
-## ✨ What Hearthmon Feels Like
-
-It's 2:14 AM.
-
-You've been fighting the same bug for an hour.
-
-Your companion quietly shifts a little closer.
-
-No notification.
-
-No streak warning.
-
-Just:
-
-*"Still here."*
-
-Weeks later, after finally shipping:
-
-*"You really fought for this one."*
+> *"This is around when we started CNG IntelliFlow. Look how far that's come."*
 
 Hearthmon remembers the hard nights — and stays.
 
 ---
 
-## 📸 A Look Inside
+## 🌍 The Living World — *the "Alive" renderer*
 
-> **Note:** *Insert your GIFs and screenshots here to bring the magic to life.*
+Hearthmon ships **two skins over one shared brain** (pick on first launch, switch anytime with **V**):
 
-- `![Classic vs Alive Mode Renderers](docs/placeholder.png)`
-- `![Type Habitat Visuals](docs/placeholder.png)`
-- `![Sleep State & Late Night Mode](docs/placeholder.png)`
-- `![An Emotional Memory Unlocked](docs/placeholder.png)`
+- **Classic** — a cozy, lightweight CSS companion.
+- **✦ Alive** — a **living snow-globe** rendered in Pixi.js v8 — your companion floating in a hand-crafted world that reacts to *everything*.
 
----
+Inside the Alive globe:
 
-![Product Map](product-map.png)
+- 🪐 **Type Habitats** — the whole world changes with your companion's type: a Moonlit Shore for Water, a Campfire Workshop for Fire, a Neon storm-sky for Electric, a Dream Observatory for Psychic… 10 hand-tuned sanctuaries covering all 18 types, each with its own sky, light, particles, and window silhouette.
+- 🌌 **Energized orbital ground** — hundreds of type-tinted stars orbiting the base in concentric rings, a rotating galaxy floor, soft rim-light, and atmospheric depth.
+- ⚡ **Chain lightning & a legendary event** — Electric habitats crackle with forked, white-gold chain lightning; on a rare "super-strike" the globe throws 2–3 bolts at once and the ground answers with a multi-strike barrage and a full-field flash. The bolts scale with your companion's power. The kind of moment you screenshot.
+- 🫧 **Mesh-warp body** — every one of the 1025 Pokémon gets squash-stretch, jiggle, breathing and lean with **zero per-character rigging**, over live Showdown sprite animation.
+- 🌦️ **Ambient life** — fireflies, embers, god-rays, water caustics, snowfall, and real weather (rain / wind / snow / thunder).
 
-
-
-## 🧭 Why Hearthmon?
-
-Building hard things is lonely.
-
-Hearthmon is a fully-local desktop companion for builders — a quiet Pokémon-inspired presence that notices your workflow, remembers your journey, and grows beside you over time.
-
-**No streaks. No guilt. No cloud. Just presence.**
-
-### Highlights
-- 🧠 **Memory-driven emotional system**
-- 🌙 **Quiet workflow awareness**
-- 🎨 **Dual renderer** (Classic CSS + Alive/Pixi.js)
-- 🔒 **100% local & privacy-first**
-- ⚔️ **1025 companions + habitats**
+> Drag the corner to resize (the pet scales to follow). Drag empty space to move it. It self-heals if your GPU sleeps.
 
 ---
 
-## 🏆 Why This Project Matters
+## 🧩 Everything it does
 
-Hearthmon explores a question:
+### 🌱 Presence & soul *(the real point)*
+- **Quiet presence** — sits beside your work, wanders, dozes off when ignored, breathes.
+- **Return without shame** — gone for days, weeks, a month? Only warmth, *never* guilt.
+- **Bond that's earned** — grows across 6 real stages (Stranger → Familiar → Trusted Friend → Companion → Partner → Lifetime Companion) from genuine time + check-ins. Deeper, more vulnerable lines unlock only as trust grows.
+- **Sacred rare moments** — protected, once-ever lines that land *because* they're scarce.
+- **Personality drift** — your companion slowly becomes unlike anyone else's, shaped by **how you treat it**, plus stable per-species quirks (night owl, collects stars, hates Mondays…).
+- **Companionship modes** — Default · Just-There (fully silent) · Fun (livelier). And **Focus Mode** 🎯: the pet stays, every sound and line goes quiet.
 
-*Can software feel emotionally supportive without becoming addictive, invasive, or demanding?*
+### 🧠 Quiet awareness *(all opt-in, all privacy-safe)*
+- **Coding awareness** — point it at a local git folder, a GitHub repo, or your **whole GitHub account**; it reacts to commits, **bug-fixes**, PRs merged, releases, new repos, and commit milestones. Private repos via an optional read-only token (stored locally, never logged).
+- **Flow sense** — infers **flow vs. friction vs. breakthrough** from your foreground app **name only** — never titles, keystrokes, screen, or code. Goes silent in deep flow, sits closer when you're stuck, and amplifies the commit that ends a long hard stretch.
+- **"Alongside you"** — recognizes the project you keep returning to and honours the ones you stuck with.
+- **Training awareness** — point it at a training log; it keeps watch while your model trains, celebrates a finished run, and offers sympathy (never blame) on a crash.
+- 🎵 **Vibe with your music** — subtly reacts to your **system audio** (gentle bob, beat pulses, type-flavored sparks); a real musical drop triggers the legendary storm. **No audio is ever recorded or sent — only ephemeral energy numbers.** Off by default.
 
-It combines:
-- **Systems design**
-- **Human-centered product thinking**
-- **Local-first architecture**
-- **State machines**
-- **Desktop graphics (Pixi.js)**
-- **Rust + Svelte + SQLite**
+### 📖 Memory *(memory > motivation)*
+- **Mood check-in** (**M**) — six emojis + optional note; the room takes the mood's tint.
+- **"We've been here before"** — surfaces a *specific* past mood you've since outlived.
+- **Remind Me Who I Am** — proof you're growing: things you survived, things you learned, wins you forgot.
+- **Our Journey** 📖 — a scrapbook timeline + a **Constellation** of your memories as a night sky.
+- **Memory anniversaries** — "this is around when we started X," surfaced ~a year later as shared memory.
+- **Good Things Jar** 🫙 (**J**) · **Leave a note to tomorrow** ✉️ (**N**) · **Memory capsules** (open in a week / month / year) · **"Someone Believed In You"** archive · **The Vault** (emergency comfort pack).
+- **Year in Review** & a cinematic **Journey Movie** of your eras. **17 emotional badges** (Still Standing, Builder's Courage, CUDA Survivor…) — never productivity metrics.
+- **Gentle, never clinical** — quiet burnout noticing, a "reach out to someone?" nudge after long sessions, a Sunday retrospective, anniversaries with fireworks.
 
----
+### ⚔️ The fun
+- **Full Pokédex (all 1025)** — switch by search, type & generation filters, a random 🎲 picker, or an auto-switch timer. **1/128 shiny** odds. ✨
+- **Ash throw ceremony** — recall beam → trainer winds up → *"<Name>, go!"* → the ball arcs in spinning → bursts open. Real Pokémon cries + Ash voice clips.
+- **Real movesets & typed attacks** — each mon uses its actual learnset: beams, energy orbs, lightning, earthquakes, slashes.
+- **1v1 Battle Arena** — real base stats, the full 18×18 type chart, STAB, crits, speed-based turns, draining HP bars, confetti.
+- **Evolution ceremony** — the white-silhouette flicker → reveal, keeping the nickname and every memory.
 
-## 🎯 Problem Statement & Design Goals
-
-Existing productivity systems suffer from constant notifications, guilt-inducing streaks, and massive privacy concerns regarding screen reading. This leads to anxiety when falling behind on arbitrary goals.
-
-**Hearthmon's Non-Negotiable Rules:**
-- **Presence Over Productivity:** Silent, comforting companionship that doesn't require constant interaction.
-- **Privacy-First (100% Local):** All memories, moods, and awareness data stay firmly on your machine in a local SQLite database.
-- **Memory Over Motivation:** Using your actual past experiences (wins, survived struggles) to encourage you on hard days.
-- **Low Overhead:** A lightweight (~10MB) native window that stays completely out of the way.
-
----
-
-## 💡 Key Innovations
-
-1. **Quiet Awareness Engine**  
-   → Senses your flow vs. friction based solely on foreground app names (no keystrokes/code reading). It sits closer when you're stuck on a bug and stays quiet in deep flow.
-
-2. **Emotional Memory System**  
-   → Instead of generic advice, it surfaces a specific mood or struggle you logged weeks ago, proving you've survived hard days before ("We've been here before").
-
-3. **Two-Tier Rendering Architecture**  
-   → Seamlessly switch between a cozy CSS "Classic" renderer and a premium Pixi.js "Alive" renderer (with particle effects, dynamic lighting, and habitats) sharing the exact same underlying emotional brain.
-
----
-
-## 🧠 Why This Works
-
-Traditional approaches try to be human-like chatbots, optimizing for active screen time. 
-
-This system succeeds because it models **patience**. It dozes off when ignored. The relationship grows authentically across 6 stages (Stranger → Lifetime Companion) based on genuine time and check-ins. It offers gentle nudges (like burnout noticing) without clinical diagnoses.
-
-→ **Result:** A digital companion that feels like a true ally, not a taskmaster.
+### 🎂 Little touches
+- **Birthday** — tell it yours at the first meeting; it remembers, and celebrates (quietly, once a year).
+- **Quiet reminders** ⏰ — set gentle personal nudges ("tea time", "brush again") at a time of day; it surfaces them softly — a nudge, never an alarm.
+- **Dreams** — symbolic dream bubbles drawn from your real memories while it sleeps.
+- **Living README card** — the animated SVG at the top auto-updates itself into your repo as you build.
 
 ---
 
-## 🏗️ System Architecture
+## 🔒 Privacy — non-negotiable
 
-```text
-[System Events / Foreground App Name]
-   ↓
-[Awareness Layer (Flow/Friction Detection)]
-   ↓
-[Memory-Driven Emotional System (SQLite)]
-   ↓
-[Renderer Layer (Classic CSS / Pixi.js Alive)]
-   ↓
-[Transparent Always-On-Top Tauri Window]
-```
+**100% local. No account. No server. Nothing uploaded — ever.** All memories, moods, and awareness data live in a local SQLite DB at `%APPDATA%/com.hearthmon.app/`. With awareness on, it sees process **names** only — never window titles, keystrokes, your screen, your code, or your audio. Music awareness keeps only ephemeral energy numbers; the raw samples never leave the callback.
+
+---
+
 ## 🛠️ Stack
 
-| Layer | Technology | Engineering Details |
+| Layer | Technology | Engineering details |
 |---|---|---|
-| **Shell & Backend** | **Tauri 2 (Rust)** | ~10MB native footprint. Frameless, transparent, always-on-top window management. |
-| **UI Framework** | **Svelte 5 & SvelteKit** | Fully typed (TypeScript) UI layer, powered by Vite 6. |
-| **Graphics Engine** | **Pixi.js v8** | Drives the "Alive" renderer (dynamic lighting, particle physics, weather). |
-| **Local Memory** | **SQLite** | via `tauri-plugin-sql`. 100% local, never leaves the `%APPDATA%` directory. |
-| **Awareness System** | **Win32 APIs** | Rust `windows-sys` for foreground process sensing (zero keystrokes logged). |
-| **Audio Processing** | **cpal (Rust)** | WASAPI loopback capture for zero-latency, ephemeral music vibe analysis. |
-| **Security Layer** | **Offline Crypto** | `chacha20poly1305`, `hkdf`, `hmac` & `obfstr` for secure builder-pass state management. |
-| **Data Source** | **PokéAPI** | Real base stats, 18×18 type charts, and actual learnsets for the battle engine. |
+| **Shell & backend** | **Tauri 2 (Rust)** | ~10 MB native footprint. Frameless, transparent, always-on-top window. |
+| **UI framework** | **Svelte 5 + SvelteKit** | Fully typed (TypeScript), Vite 6. |
+| **Graphics engine** | **Pixi.js v8** | The "Alive" snow-globe: mesh-warp body, custom spring physics, orbital particle fields, dynamic lighting, weather. WebGL context-loss recovery. |
+| **Local memory** | **SQLite** | via `tauri-plugin-sql`; WAL + indexed. Never leaves the machine. |
+| **Awareness** | **Win32 (`windows-sys`)** | Foreground process **name** sensing — zero keystrokes/titles logged. |
+| **Audio** | **cpal** | WASAPI loopback → ephemeral 3-band energy analysis (~30 Hz). |
+| **Security** | **Offline crypto** | `chacha20poly1305` + `hkdf` + `hmac` + `obfstr` for device-bound, tamper-resistant trial state. |
+| **Data** | **PokéAPI** | Real base stats, 18×18 type chart, actual learnsets, sprites & cries. |
 
 ---
 
-## 🧩 System Components
+## 🏗️ Architecture — one brain, two skins
 
-### 1. The Soul (Memory & Emotion)
-- Manages the local SQLite `memories` and `meta` tables. Tracks mood check-ins, the "Good Things Jar", and letters to tomorrow.
-- Computes bond depth and unlocks emotional milestones (badges like "Builder's Courage" or "Still Standing").
-- Driven by a memory-driven emotional system (no LLM required, though an optional Claude/Ollama layer is planned).
+```text
+[ Foreground app name · git reflog · training log · system audio ]
+        ↓  (privacy-safe signals only — never content)
+[ Awareness layer:  flow / friction / breakthrough / waiting ]
+        ↓
+[ Memory-driven emotional brain  (SQLite: memories + meta) ]
+        ↓                                    ↘
+[ Classic renderer (CSS) ]            [ Alive renderer (Pixi.js globe) ]
+        ↓                                    ↙
+[ Transparent · frameless · always-on-top Tauri window ]
+```
 
-### 2. The Habitat & Sprite Engine
-- Fetches and caches data from PokéAPI for all 1025 Pokémon (sprites, cries, movesets, stats).
-- Manages dynamic "Type Habitats" (e.g., moonlit shore, hearth) and ambient weather effects.
-- Runs the 1v1 Battle Arena with real base stats and a full 18×18 type chart.
+The emotional brain is identical across both renderers — strict feature parity, never two apps. No LLM required (an optional local Ollama / Claude layer is on the roadmap, not a dependency).
 
----
-
-## 🧪 Experimental Insights
-
-- **Silence is Golden:** Users prefer a companion that doesn't constantly talk or interrupt their workflow.
-- **Nostalgia Drives Attachment:** Integrating authentic Pokémon cries and Ash voice clips significantly increases the perceived warmth of the companion.
-
-**Conclusion:**
-→ Emotional resonance in software comes from memory and restraint, not necessarily complex AI.
+![Product Map](docs/product-map.png)
 
 ---
 
-## ⚠️ Limitations & Failure Cases
+## ⚙️ Quick start
 
-### Limitations
-- Currently Windows-only (relies on Tauri 2 and WebView2).
-- Local voice cloning feature is currently blocked on Windows (XTTS v2 dependency issues).
+```bash
+npm install
+npm run tauri dev          # develop
+npm run tauri build        # standalone .exe
+```
 
-### Failure Case Example
+### Controls cheat-sheet
+- **Drag empty space** → move · **Click** → perk · **Stroke across it** → pet (hearts)
+- **✦ edge trigger** → radial menu (switch Pokémon, Journey, reminders, settings…)
+- **V** switch skin (Classic ↔ Alive) · **M** mood · **J** jar · **N** note
+- **Alt + Space** → command palette · **Alt + W** → whistle it back to screen center
+- **Close button** → hides to the **system tray** (click the tray icon to summon · right-click → Quit)
 
-**Input:** `<User switches to a completely unknown foreground app for hours>`  
-**Issue:** `The Awareness engine might not accurately detect 'flow' vs 'friction' if the app isn't recognized, defaulting to passive presence.`
-
----
-
-## 🚀 Deployment Scenarios
-
-- **Solo Hackathons:** A silent partner during long, isolating coding sprints.
-- **Daily Remote Work:** A desk companion that separates the feeling of "working alone" from "being alone."
-- **Model Training:** Point it at a training log; it keeps watch while your model trains.
+> Doesn't start on its own by default — you run the exe. Flip **"Start with Windows"** in settings if you want it at login (it asks before popping up).
 
 ---
 
-## 🔁 Reproducibility
-
-- **Data Privacy:** Data never leaves `%APPDATA%/com.hearthmon.app/hearthmon.db`.
-- **Customization:** The sprite layer (`src/lib/sprites.ts`) is swappable for original art.
-- **Voice:** Drop custom MP3s into `static/voice/` for personalized sound bites (`go.mp3`, `<species>.mp3`).
-
----
-
-## 📁 Repository Structure
+## 📁 Repository structure
 
 ```text
 .
-├── src/               # SvelteKit UI & App Logic
-├── src-tauri/         # Rust backend, window management
-├── static/            # Assets, voice clips, fallback images
-├── docs/              # VISION.txt and product maps
-├── tools/             # Voice cloning and processing scripts
-└── README.md          # You are here
+├── src/               # SvelteKit UI, the emotional brain, both renderers
+├── src-tauri/         # Rust backend: window, watchers, audio, chapter gate
+├── static/            # assets, voice clips, fallback sprites
+├── assets/            # the living README card (auto-generated SVG)
+├── docs/              # VISION.txt, SOUL.md, product map, design notes
+├── tools/             # voice + data pipelines
+└── README.md          # you are here
 ```
 
 ---
 
-## ⚙️ Quick Start
+## ⚠️ Notes & limits
 
-### Setup
-```bash
-npm install
-```
-
-### Run
-```bash
-npm run tauri dev
-```
-
-### Build (Standalone .exe)
-```bash
-npm run tauri build
-```
-
----
-
-## 🌍 Impact
-
-- Reduces the emotional toll of solo software development.
-- Shifts the paradigm from "productivity at all costs" to "sustainable, supported building."
+- **Windows-first** (Tauri 2 + WebView2 + WASAPI / Win32 awareness). macOS/Linux build the shell, but awareness/music are Windows-specific today.
+- On the Alive globe, if the **GPU sleeps during long idle** the WebGL canvas can blank — Hearthmon now detects context loss and **remounts itself** automatically.
+- Sprites, cries, names, and any supplied/cloned voice audio are Nintendo / The Pokémon Company / voice-actor IP.
 
 ---
 
 ## 🔮 Vision
 
-To build a companion that outlasts the machines it runs on—a quiet friend that holds the history of everything you've ever built, reminding you of the builder you are.
+A companion that outlasts the machines it runs on — a quiet friend that holds the history of everything you've ever built, and reminds you of the builder you are.
 
 ---
 
@@ -318,9 +212,9 @@ _Want a longer chapter? The first one's free — reach out for a builder pass. (
 
 ---
 
-### License & Use
+### License & use
 
 Personal project. Pokémon sprites, cries, names, and any supplied/cloned voice audio are Nintendo / The Pokémon Company / voice-actor IP — **personal use only, never redistribute.**
 
-🤖 Built with [Claude Code](https://claude.com/claude-code) & ❤️ by **Ansh Bajpai** ([@AnshBajpai05](https://github.com/AnshBajpai05)). 
+🤖 Built with [Claude Code](https://claude.com/claude-code) & ❤️ by **Ansh Bajpai** ([@AnshBajpai05](https://github.com/AnshBajpai05)).
 *If it stays beside you — let Ansh know. 🌙*
