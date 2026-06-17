@@ -5,12 +5,12 @@
 > *A Pokémon-inspired desktop companion that quietly grows beside you while you build. It notices **how** you build, remembers the seasons you lived through, and never once asks for your attention.*
 
 <p align="center">
-  <img src="./assets/hearthmon-status.svg?v=1781702542" width="750"/>
+  <img src="./assets/hearthmon-status.svg?v=1782466557" width="750"/>
 </p>
 
-**Current Companion:** —<br/>
-**Mood:** quietly present<br/>
-**Status:** *"keeping watch."*<br/>
+**Current Companion:** Reshiram<br/>
+**Mood:** Quietly Building<br/>
+**Status:** *"chipping at it"*<br/>
 
 *↑ This card is **alive** — Hearthmon writes it back into your repo as you build, so your profile breathes.*
 
