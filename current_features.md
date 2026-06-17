@@ -8,31 +8,52 @@ A fuller tour than the quickstart. Poke around — a lot of this is subtle *on p
 - **Time-aware greetings** — different lines morning / afternoon / evening / late night.
 - **Return without shame** — gone for days, weeks, a month? Only warmth, never guilt.
 - **Mood check-in** (press **M**) — six emojis + optional note; the room takes the mood's tint.
+- **"Today felt like…"** ☁️ — a lighter one-tap reflection (good / heavy / strange…) when a full
+  check-in is too much.
 - **"We've been here before"** — log a mood you felt weeks ago and it surfaces *that* memory.
 - **Remind Me Who I Am** — proof you're growing: things you survived, learned, wins you forgot.
 - **Our Journey** 📖 — a scrapbook of every memory on a timeline, plus your **bond depth**
-  (Stranger → Familiar → Trusted Friend → Companion → Partner → Lifetime Companion).
+  (Stranger → Familiar → Trusted Friend → Companion → Partner → Lifetime Companion). Deeper, more
+  vulnerable lines only unlock as that bond grows.
+- **Constellation of Growth** ✦ — a "Sky" tab where every memory is a star, joined oldest→newest
+  into the trail of your journey. Not stats — your life as a night sky.
 - **Badges** 🏅 — 17 emotional milestones (Still Standing, Builder's Courage, CUDA Survivor…) —
   never productivity metrics.
 - **Good Things Jar** 🫙 (press **J**) — open it on a hard day; it hands back old wins.
 - **Leave a note** ✉️ (press **N**) — write to tomorrow-you; it reads it back next time.
+- **Memory capsules** — seal a feeling to open in a week / month / year; it stays hidden until its day.
+- **"Someone believed in you"** 💬 — log a kind thing someone said; it resurfaces gently, later.
+- **The Vault** 🫂 — "when it feels like too much": one calm pack of a survival + a compliment + a
+  win + a good day + a past note. The pet offers it after a heavy check-in.
+- **Future Self** 🔮 — a grounded message built only from your real logged resilience; plus an
+  Emotional Time Machine that hands back a heavy day you've already outlived.
 - **Gentle awareness** — quiet burnout noticing (never a diagnosis), a "reach out to someone?"
   nudge after long sessions, a Sunday retrospective, anniversaries with fireworks.
+- **Memory anniversaries** — *"This is around when we started X."* — a named beginning resurfaced
+  ~a year later, as shared memory, not data.
+- **Sacred rare moments** — once-ever lines, hard-gated, that land *because* they're scarce.
 - **Lonely Night Mode** — after midnight the room dims and a moon appears.
-- **Focus Mode** 🎯 — the pet stays, every sound and line goes silent.
+- **Companionship modes** — radial **System → Mode** cycles Default · **Just-There** 🤫 (fully
+  silent) · **Fun** 🎉 (livelier). And **Focus Mode** 🎯: the pet stays, every sound and line stops.
 - **Personality drift** — it slowly becomes unlike anyone else's, shaped by how you treat it;
-  plus per-species quirks.
+  plus per-species quirks (night owl, collects stars, hates Mondays…).
 
 ## 🧠 Awareness (all opt-in, all privacy-safe)
 - **Coding awareness** — point it at a local git folder, a GitHub repo URL, or your whole
-  GitHub account; it reacts to your commits (commit / fix / PR / release quips). Private repos:
-  optional read-only token, stored locally, never logged.
+  GitHub account; it reacts to your commits (commit / fix / PR / release / new-repo / milestone
+  quips). Private repos: optional read-only token, stored locally, never logged.
 - **Flow sense** — feels flow vs. friction vs. breakthrough from your foreground app **name
   only** (never titles, keystrokes, screen, or code). Goes quiet in deep flow, sits closer when
   you're stuck on a bug, celebrates the commit that finally cracked it.
-- **Training awareness** — point it at a training log; it keeps watch while your model trains.
+- **"Alongside you"** — notices the project you keep returning to (gentle, escalating lines over
+  days), honours one you stuck with and moved on from, and welcomes you back after an absence.
+- **Chapter memory** — remembers the *seasons* that mattered (a dense building stretch), and weeks
+  later recalls them as shared memory, not a metric.
+- **Training awareness** — point it at a training log; it keeps watch while your model trains,
+  celebrates a finished run, and offers sympathy (never blame) on a crash.
 - **🎵 Vibe with my music** — opt-in; it subtly reacts to your system audio (gentle bob, beat
-  pulses, type-flavored sparks). **No audio is ever recorded or sent — only ephemeral energy
+  pulses, type-flavored sparks) — and on the Alive globe a real **musical drop** can set off the
+  legendary lightning storm. **No audio is ever recorded or sent — only ephemeral energy
   numbers.** OFF by default; turn it on in the coding/awareness panel.
 
 ## 🎮 The fun
@@ -43,24 +64,48 @@ A fuller tour than the quickstart. Poke around — a lot of this is subtle *on p
   spinning → bursts open. Real Pokémon cries + Ash voice clips.
 - **Real movesets & typed attacks** — each mon uses its actual learnset; beams, energy orbs,
   lightning strikes, earthquakes, slashes.
-- **Evolution ceremony** — the white-silhouette flicker → reveal.
+- **Evolution ceremony** — the white-silhouette flicker → reveal (keeps the nickname + all memory).
 - **Wander & play** — walks, runs, hops, jumps, spins, zoomies; chases a butterfly; wild
   Pokémon occasionally wander through.
 - **1v1 Battle Arena** ⚔ — pick two fighters; real base stats, the full 18×18 type chart, STAB,
   crits, speed-based turns, draining HP bars, confetti.
+- **Recaps** — a tap-through **Year in Review / Wrapped** (counts framed gently, never as shame)
+  and a cinematic **Journey Movie** of your eras (chapters, the project you stayed with, the
+  partner reveal with its drifted temperament).
 
 ## 🎨 Look & feel
-- **Two renderers — press `V` to switch:** **Classic** (cozy CSS) ↔ **Alive** (premium Pixi —
-  a living body, type habitats, ambient effects). Same brain, different skin.
-- **Type Habitats** — the room changes with your pet's type (moonlit shore, hearth, and more),
-  with per-type idle behaviors and ambient (lightning, embers, god-rays, water caustics).
+- **Two renderers — press `V` to switch:** **Classic** (cozy CSS) ↔ **Alive** (premium Pixi). Same
+  brain, different skin. **Alive is the default now**, and you pick which one you want at the very
+  first meeting (switchable anytime with **V**).
+- **The Alive globe** — your companion floats in a living snow-globe: a **mesh-warp body**
+  (squash/stretch, jiggle, breathing — works for all 1025 with no rigging) over real sprite
+  animation, soft rim-light, and atmospheric depth.
+- **Type Habitats** — the world changes with your pet's type (Moonlit Shore, Campfire, Neon
+  storm-sky, Dream Observatory, and more — 10 covering all 18 types), each with its own sky,
+  light, particles and window shape, plus per-type idle behaviors and ambient (lightning, embers,
+  god-rays, water caustics, snow).
+- **Energized orbital ground** — hundreds of type-tinted stars orbiting the base in concentric
+  rings + a rotating galaxy floor.
+- **⚡ Electric storms** — white-gold chain lightning around the ring; and a **rare legendary
+  super-strike** (2–3 globe bolts at once + a ground multi-strike barrage + a full-field flash)
+  that scales with your companion's power. The kind of thing you screenshot.
+- **Self-heals** — if your GPU sleeps during long idle, the globe recovers itself instead of
+  going blank.
 - **Drag the corner** to resize (the pet scales to follow). **Drag empty space** to move it.
 - Backgrounds, widget transparency, forced night, weather — all in settings.
 
+## ⏰ Little touches
+- **Quiet reminders** (radial **Care → ⏰**) — set gentle personal nudges ("tea time", "brush
+  again", "breakfast") at a time of day; it surfaces them softly — a nudge, never an alarm.
+- **Your birthday** — tell it yours at the first meeting; it quietly celebrates, once a year.
+- **Dreams** — while it sleeps, symbolic dream bubbles drawn from your real recent memories.
+- **Living README card** — it can auto-write an animated status card into your repo's README as
+  you build — and **mirror the same card to several repos** at once (Code panel → 🪞 Mirror).
+
 ## ⌨ Controls cheat-sheet
 - **Drag empty space** → move · **Click** → perk · **Stroke across it** → pet (hearts)
-- **✦ edge trigger** → radial menu (switch Pokémon, Journey, settings, …)
-- **V** look · **M** mood · **J** jar · **N** note
+- **✦ edge trigger** → radial menu (switch Pokémon, Journey, Reminders, Code, settings, …)
+- **V** switch skin (Classic ↔ Alive) · **M** mood · **J** jar · **N** note
 - **Alt + Space** → command palette · **Alt + W** → whistle it back to screen center
 - **Close button** → hides to the **system tray** (click tray icon to summon, right-click → Quit)
 
