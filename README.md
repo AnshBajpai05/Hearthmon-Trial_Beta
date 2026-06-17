@@ -20,6 +20,16 @@
 
 ---
 
+## 🎬 See it in motion
+
+<p align="center">
+  <video src="https://github.com/AnshBajpai05/Hearthmon-Trial_Beta/raw/main/demo.mp4" controls muted loop width="750"></video>
+</p>
+
+<p align="center"><em>Player not loading? <a href="https://github.com/AnshBajpai05/Hearthmon-Trial_Beta/raw/main/demo.mp4">▶ Watch the demo</a>.</em></p>
+
+---
+
 ## ✦ What is Hearthmon?
 
 A Pokémon that lives in the corner of your screen while you code — but it's not a pet that begs for attention, and it's not another productivity tracker. The unusual part:
