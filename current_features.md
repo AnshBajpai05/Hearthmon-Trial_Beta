@@ -52,7 +52,8 @@ A fuller tour than the quickstart. Poke around — a lot of this is subtle *on p
 - **Training awareness** — point it at a training log; it keeps watch while your model trains,
   celebrates a finished run, and offers sympathy (never blame) on a crash.
 - **🎵 Vibe with my music** — opt-in; it subtly reacts to your system audio (gentle bob, beat
-  pulses, type-flavored sparks) — and on the Alive globe a real **musical drop** can set off the
+  pulses, type-flavored sparks), with an on-device **music-vs-speech detector** (YAMNet) so it moves
+  to *music*, not your voice calls — and on the Alive globe a real **musical drop** can set off the
   legendary lightning storm. **No audio is ever recorded or sent — only ephemeral energy
   numbers.** OFF by default; turn it on in the coding/awareness panel.
 
@@ -65,10 +66,14 @@ A fuller tour than the quickstart. Poke around — a lot of this is subtle *on p
 - **Real movesets & typed attacks** — each mon uses its actual learnset; beams, energy orbs,
   lightning strikes, earthquakes, slashes.
 - **Evolution ceremony** — the white-silhouette flicker → reveal (keeps the nickname + all memory).
+- **Mega Evolution** — earn a temporary Mega form after a real building stretch; a fire-aura reveal
+  that even **dictates the room** (Charizard-X throws blue fire), and the living card shows the active Mega.
 - **Wander & play** — walks, runs, hops, jumps, spins, zoomies; chases a butterfly; wild
   Pokémon occasionally wander through.
-- **1v1 Battle Arena** ⚔ — pick two fighters; real base stats, the full 18×18 type chart, STAB,
-  crits, speed-based turns, draining HP bars, confetti.
+- **Battle Arena (v5)** ⚔ — pick two fighters; real base stats, the full 18×18 type chart, STAB,
+  crits, speed-based turns, draining HP bars, confetti. Encounters are framed (**wild · trainer ·
+  boss · legendary**), each side toggles **Auto / You** (hand-play a turn or let it fight itself),
+  and the AI picks moves from a mon's **identity + temperament**, not a dice roll.
 - **Recaps** — a tap-through **Year in Review / Wrapped** (counts framed gently, never as shame)
   and a cinematic **Journey Movie** of your eras (chapters, the project you stayed with, the
   partner reveal with its drifted temperament).
@@ -101,6 +106,9 @@ A fuller tour than the quickstart. Poke around — a lot of this is subtle *on p
 - **Dreams** — while it sleeps, symbolic dream bubbles drawn from your real recent memories.
 - **Living README card** — it can auto-write an animated status card into your repo's README as
   you build — and **mirror the same card to several repos** at once (Code panel → 🪞 Mirror).
+- **Updates itself** — install once from GitHub Releases; future versions are detected on launch and
+  installed in one click, your memories / settings / companion kept exactly as they were. The first
+  download is the only manual one.
 
 ## ⌨ Controls cheat-sheet
 - **Drag empty space** → move · **Click** → perk · **Stroke across it** → pet (hearts)
