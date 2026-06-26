@@ -109,7 +109,7 @@ Inside the Alive globe:
 - **Flow sense** — infers **flow vs. friction vs. breakthrough** from your foreground app **name only** — never titles, keystrokes, screen, or code. Goes silent in deep flow, sits closer when you're stuck, and amplifies the commit that ends a long hard stretch.
 - **"Alongside you"** — recognizes the project you keep returning to and honours the ones you stuck with.
 - **Training awareness** — point it at a training log; it keeps watch while your model trains, celebrates a finished run, and offers sympathy (never blame) on a crash.
-- 🎵 **Vibe with your music** — subtly reacts to your **system audio** (gentle bob, beat pulses, type-flavored sparks); a real musical drop triggers the legendary storm. **No audio is ever recorded or sent — only ephemeral energy numbers.** Off by default.
+- 🎵 **Vibe with your music** — subtly reacts to your **system audio** (gentle bob, beat pulses, type-flavored sparks), with an on-device **music-vs-speech detector** so it moves to *music*, not your voice calls; a real musical drop triggers the legendary storm. **No audio is ever recorded or sent — only ephemeral energy numbers.** Off by default.
 
 ### 📖 Memory *(memory > motivation)*
 - **Mood check-in** (**M**) — six emojis + optional note; the room takes the mood's tint.
@@ -125,8 +125,9 @@ Inside the Alive globe:
 - **Full Pokédex (all 1025)** — switch by search, type & generation filters, a random 🎲 picker, or an auto-switch timer. **1/128 shiny** odds. ✨
 - **Ash throw ceremony** — recall beam → trainer winds up → *"<Name>, go!"* → the ball arcs in spinning → bursts open. Real Pokémon cries + Ash voice clips.
 - **Real movesets & typed attacks** — each mon uses its actual learnset: beams, energy orbs, lightning, earthquakes, slashes.
-- **1v1 Battle Arena** — real base stats, the full 18×18 type chart, STAB, crits, speed-based turns, draining HP bars, confetti.
+- **Battle Arena (v5)** — real base stats, the full 18×18 type chart, STAB, crits, speed-based turns, draining HP bars, confetti. Encounters are framed (**wild · trainer · boss · legendary**), each side toggles **Auto / You**, and the AI chooses moves from a mon's **identity + temperament** — not a coin flip.
 - **Evolution ceremony** — the white-silhouette flicker → reveal, keeping the nickname and every memory.
+- **Mega Evolution** — your companion can *earn* a temporary Mega form after a real stretch of building, with its own reveal FX; the living card reflects the active Mega.
 
 ### 🎂 Little touches
 - **Birthday** — tell it yours at the first meeting; it remembers, and celebrates (quietly, once a year).
@@ -151,7 +152,7 @@ Inside the Alive globe:
 | **Graphics engine** | **Pixi.js v8** | The "Alive" snow-globe: mesh-warp body, custom spring physics, orbital particle fields, dynamic lighting, weather. WebGL context-loss recovery. |
 | **Local memory** | **SQLite** | via `tauri-plugin-sql`; WAL + indexed. Never leaves the machine. |
 | **Awareness** | **Win32 (`windows-sys`)** | Foreground process **name** sensing — zero keystrokes/titles logged. |
-| **Audio** | **cpal** | WASAPI loopback → ephemeral 3-band energy analysis (~30 Hz). |
+| **Audio** | **cpal + YAMNet** | WASAPI loopback → ephemeral 3-band energy (~30 Hz) + an on-device YAMNet music-vs-speech vote. |
 | **Security** | **Offline crypto** | `chacha20poly1305` + `hkdf` + `hmac` + `obfstr` for device-bound, tamper-resistant trial state. |
 | **Data** | **PokéAPI** | Real base stats, 18×18 type chart, actual learnsets, sprites & cries. |
 
