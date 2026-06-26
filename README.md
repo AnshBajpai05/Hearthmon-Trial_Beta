@@ -20,6 +20,19 @@
 
 ---
 
+## 🆕 What's new — v0.1.0 beta *(this week)*
+
+- 🔄 **Auto-update, in-app** — install once; every future build is detected on launch and applied in one click. Your memories, settings, and companion are all preserved — only the program files change. *(V2's first online feature.)*
+- ⚔️ **Battle v5** — encounters now have real framing (**wild · trainer · boss · legendary**), a **per-side Auto / You** toggle so you can hand-play a turn or let it fight itself, and an AI that chooses moves from each mon's **identity + temperament** instead of a coin flip — plus a full balance pass.
+- 🜲 **Mega Evolution** — your companion can now *earn* a temporary Mega form after a real stretch of building (1-hour threshold), with its own reveal FX. The living README card reflects the active Mega form.
+- 🎵 **Smarter music sense** — a **YAMNet music-vs-speech vote** means it reacts to *music*, not your voice calls; multi-band onset detection lands type-flavored sparks on the beat, and a real drop still triggers the legendary storm. Fixed a reaction-freeze, and the music/speech toggle now ships in the build.
+- 🌱 **Longer first chapter** — the free trial is now **~a month** (28 days + 2 grace) instead of about a week.
+- ✨ **Onboarding & reminder polish**, plus the usual quiet fixes.
+
+> ⬇️ Grab it from [**Releases**](https://github.com/AnshBajpai05/Hearthmon-Trial_Beta/releases/latest). Already running an older copy? Quit it, delete it (memories are safe), install this once — from here on it updates itself.
+
+---
+
 ## 🎬 See it in motion
 
 <p align="center">
