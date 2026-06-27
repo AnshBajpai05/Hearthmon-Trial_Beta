@@ -16,6 +16,8 @@
 
 `100% local` · `no account` · `no cloud` · `~10 MB native` · `Tauri 2 + Svelte 5 + Rust + Pixi.js v8`
 
+*🔓 We'll **open-source Hearthmon** once it's a stable product with the rough edges sanded down. Until then it's a hand-shared beta — free, never for sale.*
+
 </div>
 
 ---
@@ -232,7 +234,7 @@ A companion that outlasts the machines it runs on — a quiet friend that holds 
 ✦ Hearthmon is quietly finding its first builders.
 <!--BUILDERS:END-->
 
-_Want a longer chapter? The first one's free — reach out for a builder pass. (Updated by hand from passes issued; nothing phones home.)_
+_Want a longer chapter? Just reach out for a builder pass — they're free, and always will be. Hearthmon isn't for sale and never will be; it's a gift, not a product. (Passes are logged by hand from what's issued; nothing phones home.)_
 
 ---
 
