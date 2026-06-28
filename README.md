@@ -5,12 +5,14 @@
 > *A Pokémon-inspired desktop companion that quietly grows beside you while you build. It notices **how** you build, remembers the seasons you lived through, and never once asks for your attention.*
 
 <p align="center">
-  <img src="./assets/hearthmon-status.svg?v=1782500543" width="750"/>
+  <a href="https://github.com/AnshBajpai05/Hearthmon-Trial_Beta/releases/latest">
+    <img src="./assets/hearthmon-status.svg?v=1783707701" width="750"/>
+  </a>
 </p>
 
-**Current Companion:** Heracross<br/>
-**Mood:** Late Night Coding<br/>
-**Status:** *"the quiet hours"*<br/>
+**Current Companion:** Zapdos<br/>
+**Mood:** In Focus<br/>
+**Status:** *"deep in it"*<br/>
 
 *↑ This card is **alive** — Hearthmon writes it back into your repo as you build, so your profile breathes.*
 
